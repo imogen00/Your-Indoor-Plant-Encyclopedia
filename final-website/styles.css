@@ -1,0 +1,1381 @@
+/* base styling -------------------------------------------*/ 
+* {
+    box-sizing: border-box;
+}
+
+@font-face{ 
+    font-family: "palmer-lake";
+    src:url("palmer-lake.otf"); 
+   }
+
+
+body {
+    font-family: gaultier-lights, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    font-size: 1.3vw;
+    
+}
+h1 {
+    font-family: 'palmer-lake';
+    font-size: 3.5vw;
+    font-weight: 300;
+    color: rgb(11, 75, 40);
+    position: absolute;
+    right: 38%;
+    top: 28%;
+    text-align: left;
+}
+.section-home #header-text {
+    line-height: 3%;
+}
+h2 {
+    font-family: 'palmer-lake';
+    font-size: 5vw;
+    font-weight: 300;
+    color: rgb(11, 75, 40);
+    position: absolute;
+    right: 20%;
+    top: 7%;
+}
+h3 {
+    font-family: 'palmer-lake';
+    font-size: 5vw;
+    font-weight: 300;
+    color: rgb(11, 75, 40);
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+/* Italic headings */
+h4 {
+    font-family: gaultier, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2vw;   
+}
+/* Uppercase headings */
+h5 {
+    font-family: gaultier, sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 0.9vw;
+    text-transform: uppercase;
+}
+/* body copy/ info on plants */
+.plant-1-info  {
+    height: 20%;
+    line-height:1vw;
+    float: right;
+    width: 45%;  
+}
+.plant-2-info{
+    width: 45%;
+    float: left;
+    line-height:1vw;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.plant-2-info h3{
+    top: 0%;
+}
+.plant-3-info  {
+    height: 0;
+    line-height:1vw;
+    float: right;
+    width: 45%;  
+}
+.plant-3-info h2  {
+    right: 29%;
+}
+.plant-4-info{
+    width: 45%;
+    float: left;
+    line-height:1vw;
+    padding-left: 10%;
+    padding-top: 11%;
+}
+.plant-4-info h3{
+    top:5%;
+}
+.plant-5-info  {
+    line-height:1vw;
+    float: right;
+    width: 46%; 
+    padding-top: 10%; 
+}
+.plant-5-info h2  {
+    right: 23.5%;
+}
+/* Full page hacks ---------------------------------------*/
+/* nav */
+
+#fp-nav ul li .fp-tooltip {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Slides nab */
+.fp-slidesNav {
+    left: 17% !important;
+    bottom: 15% !important;
+}
+/* Section */ 
+.section {
+    height: 100vh;
+}
+.section .fptableCell {
+    padding: 2em;
+}
+/* Home Page -------------------------------------------*/
+#lady {
+    animation: sway 3s ease-in-out infinite alternate;
+    animation-fill-mode: forwards;
+}
+#lady img {
+    position: relative;
+    position: center;  
+    transition: all 0.3s ease-in-out;  
+  }
+#lady .lady{
+    width: 20%;
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    bottom: 20%;
+}
+#lady .water-can {
+    position: absolute;
+    right: 23.5%;
+    top: 14.5%;
+    width: 14%;
+} 
+#lady:hover .water-can  {
+    transform: rotate(2.3deg);
+}
+/* fruit salad plant home screen */
+#home-fruit {
+    animation: sway 3s ease-in-out infinite alternate;
+    animation-fill-mode: forwards;    
+  }
+#home-fruit img {
+    position: relative;
+    position: center; 
+    transition: all 0.3s ease-in-out;     
+  }
+#home-fruit .home-fruit-pot {
+    left: 24.5%;
+    width: 10%;
+    top: 50%;
+    position: absolute;
+}
+#home-fruit .home-fruit-leaf-1 {
+    top: 57%;
+    left: 30.7%;
+    width: 9%; 
+    position: absolute;
+}
+#home-fruit:hover .home-fruit-leaf-1 {
+    transform: rotate(5deg);
+}
+#home-fruit .home-fruit-leaf-2 {
+    top: 70%;
+    left: 30%;
+    width: 9%; 
+    position: absolute;
+}
+#home-fruit:hover .home-fruit-leaf-2 {
+    transform: rotate(-5deg);
+}
+#home-fruit .home-fruit-leaf-3 {
+    top: 57%;
+    left: 26.5%;
+    width: 6.5%; 
+    position: absolute;
+}
+#home-fruit:hover .home-fruit-leaf-3 {
+    transform: rotate(-5deg);
+}
+#home-fruit .home-fruit-leaf-4 {
+    top: 60%;
+    left: 18.5%;
+    width: 10%; 
+    position: absolute;
+}
+#home-fruit:hover .home-fruit-leaf-4 {
+    transform: rotate(5deg);
+}
+#home-fruit .home-fruit-leaf-5 {
+    top: 48.3%;
+    left: 34%;
+    width: 6%; 
+    position: absolute;
+}
+#home-fruit:hover .home-fruit-leaf-5 {
+    transform: rotate(-5deg);
+}
+#home-fruit .home-fruit-leaf-6 {
+    top: 50%;
+    left: 19%;
+    width: 8%; 
+    position: absolute;
+}
+#home-fruit:hover .home-fruit-leaf-6 {
+    transform: rotate(5deg);
+}
+#home-fruit .home-fruit-leaf-7 {
+    top: 40%;
+    left: 22%;
+    width: 11%; 
+    position: absolute;
+}
+#home-fruit:hover .home-fruit-leaf-7 {
+    transform: rotate(-5deg);
+}
+/* fruit salad plant home screen */
+#home-elephant {
+    animation: sway 3s ease-in-out infinite alternate;
+    animation-fill-mode: forwards;   
+  }
+  #home-elephant img {
+    position: relative;
+    position: center; 
+    transition: all 0.3s ease-in-out;  
+  }
+#home-elephant .home-elephant-pot {
+    left: 50%;
+    top: 58%;
+    width: 15%;
+    position: absolute;
+}
+#home-elephant .home-elephant-leaf-1 {
+    top: 51%;
+    left: 50.25%;
+    width: 9%; 
+    position: absolute;
+}
+#home-elephant:hover .home-elephant-leaf-1 {
+    transform: rotate(-5deg);
+}
+#home-elephant .home-elephant-leaf-2 {
+    top: 64%;
+    left: 58%;
+    width: 7%; 
+    position: absolute;
+}
+#home-elephant:hover .home-elephant-leaf-2 {
+    transform: rotate(5deg);
+}
+#home-elephant .home-elephant-leaf-3 {
+    top: 64%;
+    left: 47%;
+    width: 3.5%; 
+    position: absolute;
+}
+#home-elephant:hover .home-elephant-leaf-3 {
+    transform: rotate(-5deg);
+}
+#home-elephant .home-elephant-leaf-4 {
+    top: 53%;
+    left: 62.5%;
+    width: 7.5%; 
+    position: absolute;
+}
+#home-elephant:hover .home-elephant-leaf-4 {
+    transform: rotate(5deg);
+}
+/* fig plant home screen ----------------------------------*/
+#home-fig {
+    animation: sway 3s ease-in-out infinite alternate;
+    animation-fill-mode: forwards;   
+  }
+#home-fig img {
+    position: relative;
+    position: center; 
+    transition: all 0.3s ease-in-out;     
+  }
+  #home-fig .home-f-pot {
+    left: 7%;
+    width: 7%;
+    top: 27%; 
+    position: absolute;
+}
+#home-fig .home-f-leaf-1 {
+    top: 12%;
+    left: 5%;
+    width: 5.5%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-1 {
+    transform: rotate(5deg);
+}
+#home-fig .home-f-leaf-2 {
+    top: 28%;
+    left: 1%;
+    width: 7.5%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-2 {
+    transform: rotate(-5deg);
+}
+#home-fig .home-f-leaf-3 {
+    top: 52%;
+    left: 6.5%;
+    width: 4.5%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-3 {
+    transform: rotate(-5deg);
+}
+#home-fig .home-f-leaf-4 {
+    top: 39%;
+    left: 12%;
+    width: 5%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-4 {
+    transform: rotate(5deg);
+}
+#home-fig .home-f-leaf-5 {
+    top: 42%;
+    left: 11.2%;
+    width: 5%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-5 {
+    transform: rotate(-5deg);
+}
+#home-fig .home-f-leaf-6 {
+    top: 47%;
+    left: 9.7%;
+    width: 3%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-6 {
+    transform: rotate(5deg);
+}
+#home-fig .home-f-leaf-7 {
+    top: 43%;
+    left: 7%;
+    width: 4.5%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-7 {
+    transform: rotate(5deg);
+}
+#home-fig .home-f-leaf-8 {
+    top: 35%;
+    left: 11%;
+    width: 5.5%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-8 {
+    transform: rotate(-5deg);
+}
+#home-fig .home-f-leaf-9 {
+    top: 34.55%;
+    left: 6.8%;
+    width: 5.7%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-9 {
+    transform: rotate(5deg);
+}
+#home-fig .home-f-leaf-10 {
+    top: 33%;
+    left: 3.4%;
+    width: 5.7%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-10 {
+    transform: rotate(-5deg);
+}
+#home-fig .home-f-leaf-11 {
+    top: 27%;
+    left: 14.5%;
+    width: 4%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-11 {
+    transform: rotate(-5deg);
+}
+#home-fig .home-f-leaf-12 {
+    top: 21%;
+    left: 11%;
+    width: 6%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-12 {
+    transform: rotate(5deg);
+}
+#home-fig .home-f-leaf-13 {
+    top: 26%;
+    left: 8.9%;
+    width: 6.5%; 
+    position: absolute;
+}
+#home-fig:hover .home-f-leaf-13 {
+    transform: rotate(5deg);
+}
+/* Hanging plant home screen */
+
+ #home-devil {
+    animation: sway 3s ease-in-out infinite alternate;
+    animation-fill-mode: forwards; 
+  }
+  #home-devil img {
+    position: relative;
+    position: center;  
+    transition: all 0.3s ease-in-out;  
+  }
+  #home-devil .dbasket {
+    left: 65%;
+    top: 5%;
+    width: 10%;
+    position: absolute;
+}
+#home-devil .dleaf-1 {
+    top: 19%;
+    right: 33%;
+    width: 6.5%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-1 {
+    transform: rotate(6deg);
+}
+#home-devil .dleaf-2 {
+    top: 12.6%;
+    right: 31%;
+    width: 4.5%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-2 {
+    transform: rotate(-6deg);
+}
+#home-devil .dleaf-3 {
+    top: 13%;
+    right: 28%;
+    width: 4.5%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-3 {
+    transform: rotate(-6deg);
+}
+#home-devil .dleaf-4 {
+    top: 15%;
+    right: 24.5%;
+    width: 4.5%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-4 {
+    transform: rotate(6deg);
+}
+#home-devil .dleaf-5 {
+    top: 23%;
+    right: 31.5%;
+    width: 3.3%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-5 {
+    transform: rotate(6deg);
+}
+#home-devil .dleaf-6 {
+    top: 20%;
+    right: 25%;
+    width: 6%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-6 {
+    transform: rotate(-6deg);
+}
+#home-devil .dleaf-7 {
+    top: 29%;
+    right: 27.5%;
+    width: 3%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-7 {
+    transform: rotate(-6deg);
+}
+#home-devil .dleaf-8 {
+    top: 36%;
+    right: 29.5%;
+    width: 2.5%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-8 {
+    transform: rotate(6deg);
+}
+#home-devil .dleaf-9 {
+    top: 40%;
+    right: 28.5%;
+    width: 2%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-9 {
+    transform: rotate(-6deg);
+}
+#home-devil .dleaf-10 {
+    top: 45%;
+    right: 28.5%;
+    width: 3%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-10 {
+    transform: rotate(6deg);
+}
+#home-devil .dleaf-11 {
+    top: 51%;
+    right: 28.1%;
+    width: 1.3%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-11 {
+    transform: rotate(10deg);
+}
+#home-devil .dleaf-12 {
+    top: 50%;
+    right: 26.5%;
+    width: 1.4%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-12 {
+    transform: rotate(-10deg);
+}
+#home-devil .dleaf-13 {
+    top: 56%;
+    right: 26.3%;
+    width: 1.7%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-13 {
+    transform: rotate(10deg);
+}
+#home-devil .dleaf-14 {
+    top: 55%;
+    right: 24.2%;
+    width: 3%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-14 {
+    transform: rotate(-6deg);
+}
+#home-devil .dleaf-15 {
+    top: 22%;
+    right: 25%;
+    width: 3%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-15 {
+    transform: rotate(6deg);
+}
+#home-devil .dleaf-16 {
+    top: 37%;
+    right: 23.6%;
+    width: 3%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-16 {
+    transform: rotate(-6deg);
+}
+#home-devil .dleaf-17 {
+    top: 44%;
+    right: 26%;
+    width: 1.7%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-17 {
+    transform: rotate(8deg);
+}
+#home-devil .dleaf-18 {
+    top: 50%;
+    right: 24.4%;
+    width: 2%; 
+    position: absolute;
+}
+#home-devil:hover .dleaf-18 {
+    transform: rotate(-8deg);
+}
+
+/* Plant section 1 Chinese Money Plant----------------------*/
+#pilea {
+    left: 13%;
+    width: 100%;
+    position: relative;
+    animation: sway 3s ease-in-out infinite alternate;
+    animation-fill-mode: forwards;
+    
+  }
+  #pilea img {
+    position: relative;
+    position: center;  
+    transition: all 0.3s ease-in-out;  
+  }
+
+.pot {
+    left: 0;
+    top: 30%;
+    width: 20%;
+    position: absolute;
+}
+
+#pilea .leaf-1 {
+    top: 49.5%;
+    left: 5.5%;
+    width: 9%; 
+    position: absolute;
+}
+#pilea:hover .leaf-1 {
+    transform: rotate(6deg);
+}
+
+#pilea .leaf-2 {
+    top: 3.1%;
+    left: 7.7%;
+    width: 9.7%; 
+    position: absolute;
+}
+#pilea:hover .leaf-2 {
+    transform: rotate(-6deg);
+}
+#pilea .leaf-3 {
+    top: -13%;
+    left: 11%;
+    width: 7.7%; 
+    position: absolute;
+}
+#pilea:hover .leaf-3 {
+    transform: rotate(6deg);
+}
+#pilea .leaf-4 {
+    top: -12.5%;
+    left: 5%;
+    width: 5.2%; 
+    position: absolute;
+}
+#pilea:hover .leaf-4 {
+    transform: rotate(-6deg);
+}
+#pilea .leaf-5 {
+    top: -12.5%;
+    left: -1.1%;
+    width: 5.8%; 
+    position: absolute;
+}
+#pilea:hover .leaf-5 {
+    transform: rotate(6deg);
+}
+#pilea .leaf-6 {
+    top: 12%;
+    left: -3.2%;
+    width: 4%; 
+    position: absolute;
+}
+#pilea:hover .leaf-6 {
+    transform: rotate(-6deg);
+}
+#pilea .leaf-7 {
+    top: 16%;
+    left: 2%;
+    width: 5.5%; 
+    position: absolute;
+}
+#pilea:hover .leaf-7 {
+    transform: rotate(6deg);
+}
+#pilea .leaf-8 {
+    top: 40%;
+    left: -1%;
+    width: 5.5%; 
+    position: absolute;
+}
+#pilea:hover .leaf-8 {
+    transform: rotate(6deg);
+}
+#pilea .leaf-9 {
+    top: 63.7%;
+    left: -1.3%;
+    width: 2.9%; 
+    position: absolute;
+}
+#pilea:hover .leaf-9 {
+    transform: rotate(-6deg);
+}
+#pilea .leaf-10 {
+    top: -2%;
+    left: 17.4%;
+    width: 7%; 
+    position: absolute;
+}
+#pilea:hover .leaf-10 {
+    transform: rotate(6deg);
+}
+#pilea .leaf-11 {
+    top: 27%;
+    left: 19.7%;
+    width: 7%; 
+    position: absolute;
+}
+#pilea:hover .leaf-11 {
+    transform: rotate(-6deg);
+}
+#pilea .leaf-12 {
+    top: 40%;
+    left: 15%;
+    width: 4.5%; 
+    position: absolute;
+}
+#pilea:hover .leaf-12 {
+    transform: rotate(6deg);
+}
+#pilea .leaf-13 {
+    top: 56.3%;
+    left: 18%;
+    width: 5.5%; 
+    position: absolute;
+}
+#pilea:hover .leaf-13 {
+    transform: rotate(-6deg);
+}
+
+/* Plant section 2 Devils Ivy--------------------------------*/
+
+#devil {
+    top: 10%;
+    width: 100%;
+    position: absolute;
+    animation: sway 3s ease-in-out infinite alternate;
+    animation-fill-mode: forwards;
+    
+  }
+  #devil img {
+    position: relative;
+    position: center;  
+    transition: all 0.3s ease-in-out;  
+  }
+
+.basket {
+    left: 63%;
+    top: -100%;
+    width: 15%;
+    position: absolute;
+}
+#devil .devil-leaf-1 {
+    top: 27%;
+    right: 32%;
+    width: 11%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-1 {
+    transform: rotate(6deg);
+}
+#devil .devil-leaf-2 {
+    top: 15%;
+    right: 28%;
+    width: 8%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-2 {
+    transform: rotate(-6deg);
+}
+#devil .devil-leaf-3 {
+    top: 15%;
+    right: 24%;
+    width: 8%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-3 {
+    transform: rotate(6deg);
+}
+#devil .devil-leaf-4 {
+    top: 18%;
+    right: 17.7%;
+    width: 8%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-4 {
+    transform: rotate(-6deg);
+}
+#devil .devil-leaf-5 {
+    top: 35%;
+    right: 29%;
+    width: 5.7%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-5 {
+    transform: rotate(6deg);
+}
+#devil .devil-leaf-6 {
+    top: 29%;
+    right: 19%;
+    width: 10%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-6 {
+    transform: rotate(-6deg);
+}
+#devil .devil-leaf-7 {
+    top: 44%;
+    right: 25.7%;
+    width: 4%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-7 {
+    transform: rotate(6deg);
+}
+#devil .devil-leaf-8 {
+    top: 59%;
+    right: 28.7%;
+    width: 4%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-8 {
+    transform: rotate(-6deg);
+}
+#devil .devil-leaf-9 {
+    top: 65.7%;
+    right: 27.4%;
+    width: 4%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-9 {
+    transform: rotate(6deg);
+}
+#devil .devil-leaf-10 {
+    top: 77%;
+    right: 26.8%;
+    width: 5%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-10 {
+    transform: rotate(-6deg);
+}
+#devil .devil-leaf-11 {
+    top: 89%;
+    right: 26.2%;
+    width: 2.2%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-11 {
+    transform: rotate(9deg);
+}
+#devil .devil-leaf-12 {
+    top: 85%;
+    right: 24%;
+    width: 2%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-12 {
+    transform: rotate(-9deg);
+}
+#devil .devil-leaf-13 {
+    top: 96%;
+    right: 23.7%;
+    width: 2.5%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-13 {
+    transform: rotate(9deg);
+}
+#devil .devil-leaf-14 {
+    top: 93%;
+    right: 21.4%;
+    width: 4%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-14 {
+    transform: rotate(-9deg);
+}
+#devil .devil-leaf-15 {
+    top: 47%;
+    right: 20.3%;
+    width: 5%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-15 {
+    transform: rotate(6deg);
+}
+#devil .devil-leaf-16 {
+    top: 68%;
+    right: 19.3%;
+    width: 5.3%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-16 {
+    transform: rotate(-6deg);
+}
+#devil .devil-leaf-17 {
+    top: 74%;
+    right: 23.5%;
+    width: 2.6%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-17 {
+    transform: rotate(6deg);
+}
+#devil .devil-leaf-18 {
+    top: 85%;
+    right: 21%;
+    width: 3.3%; 
+    position: absolute;
+}
+#devil:hover .devil-leaf-18 {
+    transform: rotate(-9deg);
+}
+
+/* Plant section 3 Elephant Ear--------------------------------*/
+#elephant {
+    top: 10%;
+    position: relative;
+    animation: sway 3s ease-in-out infinite alternate;
+    animation-fill-mode: forwards;  
+  }
+  #elephant img {
+    position: relative;
+    position: center;  
+    transition: all 0.3s ease-in-out;  
+  }
+.elephant-pot {
+    left: 20%;
+    width: 20%;
+    position: absolute;
+}
+#elephant .elephant-leaf-1 {
+    top: -32%;
+    left: 20.3%;
+    width: 14%; 
+    position: absolute;
+}
+#elephant:hover .elephant-leaf-1 {
+    transform: rotate(5deg);
+}
+#elephant .elephant-leaf-2 {
+    top: 15%;
+    left: 31.34%;
+    width: 12.5%; 
+    position: absolute;
+}
+#elephant:hover .elephant-leaf-2 {
+    transform: rotate(-5deg);
+}
+#elephant .elephant-leaf-3 {
+    top: 15%;
+    left: 15.2%;
+    width: 5.3%; 
+    position: absolute;
+}
+#elephant:hover .elephant-leaf-3 {
+    transform: rotate(-5deg);
+}
+#elephant .elephant-leaf-4 {
+    top: -25%;
+    left: 36%;
+    width: 12%; 
+    position: absolute;
+}
+#elephant:hover .elephant-leaf-4 {
+    transform: rotate(5deg);
+}
+/* Plant section 4 Fiddle-leaf fig--------------------------------*/
+
+#fig {
+    top: 30%;
+    right: 0%;
+    width: 100%;
+    position: relative;
+    animation: sway 3s ease-in-out infinite alternate;
+    animation-fill-mode: forwards;  
+  }
+  #fig img {
+    position: relative;
+    position: center; 
+    transition: all 0.3s ease-in-out;  
+  }
+.f-pot {
+    left: 22%;
+    width: 7%;
+    position: absolute;
+}
+#fig .f-leaf-1 {
+    top: -27.1%;
+    right: 29.3%;
+    width: 6.5%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-1 {
+    transform: rotate(5deg);
+}
+#fig .f-leaf-2 {
+    top: -3%;
+    right: 31.3%;
+    width: 9%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-2 {
+    transform: rotate(-5deg);
+}
+#fig .f-leaf-2 {
+    top: -0.5%;
+    right: 31.6%;
+    width: 9.2%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-2 {
+    transform: rotate(-5deg);
+}
+#fig .f-leaf-3 {
+    top: 35%;
+    right: 29%;
+    width: 5.5%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-3 {
+    transform: rotate(5deg);
+}
+#fig .f-leaf-4 {
+    top: 14%;
+    right: 21%;
+    width: 6%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-4 {
+    transform: rotate(-5deg);
+}
+#fig .f-leaf-5 {
+    top: 19%;
+    right: 23%;
+    width: 6%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-5 {
+    transform: rotate(-5deg);
+}
+#fig .f-leaf-6 {
+    top: 28%;
+    right: 26.9%;
+    width: 4%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-6 {
+    transform: rotate(5deg);
+}
+#fig .f-leaf-7 {
+    top: 20%;
+    right: 27.9%;
+    width: 5%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-7 {
+    transform: rotate(-5deg);
+}
+#fig .f-leaf-8 {
+    top: 7%;
+    right: 21.5%;
+    width: 6.5%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-8 {
+    transform: rotate(5deg);
+}
+#fig .f-leaf-9 {
+    top: 8%;
+    right: 27.4%;
+    width: 5.5%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-9 {
+    transform: rotate(-5deg);
+}
+#fig .f-leaf-10 {
+    top: 7%;
+    right: 31%;
+    width: 6.5%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-10 {
+    transform: rotate(5deg);
+}
+#fig .f-leaf-11 {
+    top: -2%;
+    right: 21%;
+    width: 4%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-11 {
+    transform: rotate(-5deg);
+}
+#fig .f-leaf-12 {
+    top: -12%;
+    right: 22%;
+    width: 6%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-12 {
+    transform: rotate(5deg);
+}
+#fig .f-leaf-13 {
+    top: -5%;
+    right: 24.5%;
+    width: 6.8%; 
+    position: absolute;
+}
+#fig:hover .f-leaf-13 {
+    transform: rotate(5deg);
+}
+
+/* Plant section 5 Fruit salad plant--------------------------------*/
+
+#fruit {
+    top: 30%;
+    right: 7%;
+    width: 100%;
+    position: relative;
+    animation: sway 3s ease-in-out infinite alternate;
+    animation-fill-mode: forwards;  
+  }
+  #fruit img {
+    position: relative;
+    position: center; 
+    transition: all 0.3s ease-in-out;  
+  }
+.fruit-pot {
+    left: 24.5%;
+    width: 14%;
+    position: absolute;
+}
+#fruit .fruit-leaf-1 {
+    top: 17.8%;
+    left: 34%;
+    width: 13%; 
+    position: absolute;
+}
+#fruit:hover .fruit-leaf-1 {
+    transform: rotate(-5deg);
+}
+#fruit .fruit-leaf-2 {
+    top: 50%;
+    left: 31%;
+    width: 13.5%; 
+    position: absolute;
+}
+#fruit:hover .fruit-leaf-2 {
+    transform: rotate(5deg);
+}
+#fruit .fruit-leaf-3 {
+    top: 18%;
+    left: 28%;
+    width: 9%; 
+    position: absolute;
+}
+#fruit:hover .fruit-leaf-3 {
+    transform: rotate(5deg);
+}
+#fruit .fruit-leaf-4 {
+    top: 28.4%;
+    left: 18%;
+    width: 13%; 
+    position: absolute;
+}
+#fruit:hover .fruit-leaf-4 {
+    transform: rotate(-5deg);
+}
+#fruit .fruit-leaf-5 {
+    top: -4%;
+    left: 38%;
+    width: 9%; 
+    position: absolute;
+}
+#fruit:hover .fruit-leaf-5 {
+    transform: rotate(5deg);
+}
+#fruit .fruit-leaf-6 {
+    top: 2%;
+    left: 17%;
+    width: 10%; 
+    position: absolute;
+}
+#fruit:hover .fruit-leaf-6 {
+    transform: rotate(-5deg);
+}
+#fruit .fruit-leaf-7 {
+    top: -25%;
+    left: 20%;
+    width: 16%; 
+    position: absolute;
+}
+#fruit:hover .fruit-leaf-7 {
+    transform: rotate(5deg);
+}
+/* Media query ------------------------------------------*/
+#hide {
+    visibility: hidden;
+}
+/*section 1 home screen */
+@media screen and (max-width: 1000px) {
+    
+    .section .section-home  {
+      width: 100%;
+    }
+    .section-home #hide {
+        visibility: visible;
+        width: 1000%;
+    }
+    .section-home #home-fruit, #home-elephant, #home-fig, #home-devil, #lady {
+        visibility: hidden;
+    }
+    h1{
+        position: absolute;
+        width: 100%;
+        padding-top: 80%;
+        font-size: 6vw; 
+        padding-left: 45%;
+    }
+   
+  }
+/*section 2 pilea */
+@media screen and (max-width: 1000px) {
+    .section .section-plant-1  {
+      width: 100%;
+    }
+    
+    .plant-1-info {
+        position: relative;
+        padding-left: 25%;
+        width: 100%;
+        font-size: 3vw;
+    }
+    h4, h5, p {
+        position: relative;
+        width: 100%;
+        font-size: 3vw;
+    }
+    .plant-1-info h2 {
+        position: absolute;
+        padding-left: 45%;
+        width: 100%;
+        top: -30%;
+        font-size: 8.5vw;
+    }
+    .section-plant-1 #pilea {
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        width: 100%
+    }
+  }
+  /*section 3 devil ivy ----------------------------------*/
+@media screen and (max-width: 1000px) {
+    .section .section-plant-2  {
+      width: 100%;
+    }
+    
+    .plant-2-info {
+        position: relative;
+        padding-left: 25%;
+        width: 100%;
+        top: 10%;
+        font-size: 3vw;
+    }
+    h4, h5, p {
+        position: relative;
+        width: 100%;
+        font-size: 3vw;
+    }
+    .plant-2-info h3 {
+        position: absolute;
+        padding-left: 15%;
+        width: 100%;
+        top: -5%;
+        font-size: 8.5vw;
+    }
+    .section-plant-2 #devil {
+        position: absolute;
+        top: 5%;
+        left: -20%;
+        width: 100%
+    }
+  }
+/*section 4 elephant ear */
+@media screen and (max-width: 1000px) {
+    .section .section-plant-3  {
+      width: 100%;
+    }
+    .plant-3-info {
+        position: relative;
+        padding-left: 25%;
+        width: 100%;
+        font-size: 3vw;
+    }
+    h4, h5, p {
+        position: relative;
+        width: 100%;
+        font-size: 3vw;
+    }
+    .plant-3-info h2 {
+        position: relative;
+        padding-left: 30%;
+        width: 100%;
+        font-size: 8.5vw;
+    }
+    .section-plant-3 #elephant {
+        position: relative;
+        top: -25%;
+        left: 20%;
+        width: 100%
+    }
+  }
+/*section 5 fiddle leaf fig */
+@media screen and (max-width: 1000px) {
+    .section .section-plant-4  {
+      width: 100%;
+    }
+    .plant-4-info {
+        position: relative;
+        padding-left: 20%;
+        width: 100%;
+        padding-top: 20%;
+        font-size: 3vw;
+    }
+    h4, h5, p, h3 {
+        position: relative;
+        width: 100%;
+        font-size: 3vw;
+    }
+    .plant-4-info h3 {
+        padding-left: -40%;
+        width: 100%;
+        font-size: 8.5vw;
+    }
+    #fig  {
+        visibility: hidden;
+    }
+  }
+/*section 6 fruit salad plant */
+@media screen and (max-width: 1000px) {
+    .section .section-plant-5  {
+      width: 100%;
+    }
+    .plant-5-info {
+        position: absolute;
+        padding-left: 25%;
+        width: 100%;
+        font-size: 3vw;
+    }
+    h4, h5, p {
+        position: relative;
+        width: 100%;
+        font-size: 3vw;
+    }
+    .plant-5-info h2 {
+        position: relative;
+        padding-left: 22%;
+        width: 100%;
+        font-size: 8.5vw;
+    }
+    .section-plant-5 #fruit {
+        position: relative;
+        top: -25%;
+        left: 20%;
+        width: 100%
+    }
+  } 
